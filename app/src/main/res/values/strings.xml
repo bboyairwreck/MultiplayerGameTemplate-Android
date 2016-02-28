@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Multiplayer Game</string>
+    <string name="game_code">GAME CODE</string>
+    <string name="game_code_placeholder">A462</string>
+    <string name="waiting_for_players">Waiting for players&#8230;</string>
+    <string name="start_game">START GAME</string>
+    <string name="join_game">JOIN</string>
+</resources>
