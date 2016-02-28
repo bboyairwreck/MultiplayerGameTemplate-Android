@@ -20,7 +20,7 @@ public class ModeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Set username as player 1 for sender
-                ((QwicklyApplication) getApplication()).setUsername("player1");
+                ((MultiplayerApplication) getApplication()).setUsername("player1");
 
                 Intent collabJoinIntent = new Intent(ModeActivity.this, JoinActivity.class);
                 collabJoinIntent.putExtra(Constants.PLAYER_TYPE, Constants.PLAYER_TYPE_CREATOR);
@@ -32,7 +32,7 @@ public class ModeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Set username as player 2 for receiver
-                ((QwicklyApplication) getApplication()).setUsername("player2");
+                ((MultiplayerApplication) getApplication()).setUsername("player2");
 
                 Intent collabJoinIntent = new Intent(ModeActivity.this, JoinActivity.class);
                 collabJoinIntent.putExtra(Constants.PLAYER_TYPE, Constants.PLAYER_TYPE_JOINER);
